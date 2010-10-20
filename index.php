@@ -26,6 +26,7 @@ get_header();
 					$CONTACT=get_category_by_slug('contakt');
 					$con=$CONTACT->name;
 				?>
+<p>dies ist ein test. habe ein neues feature gerade gebaut.</p>
 				<ul>
 					<li><a id="menue_home" href="#home"><span class="ui-icon ui-icon-home" style="float: left; margin-top: .3em;  margin-right: .3em;"></span><?php echo $hom; ?></a></li>
 					<li><a id="menue_about_me" href="#about_me"><span class="ui-icon ui-icon-person" style="float: left; margin-top: .3em;  margin-right: .3em;"></span><?php echo $abo; ?></a></li>
