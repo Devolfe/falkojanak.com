@@ -1,0 +1,117 @@
+li {
+	padding:3px;
+}
+
+ul {
+	list-style-type: none;
+	padding-right: 30px;
+	margin-top:0;
+	padding-left:20px;
+}
+
+dl {
+	margin-left:40px;
+}
+
+dd {
+	padding-bottom:5px;
+}
+
+#root {
+	width:760px;
+	//margin: auto;
+	padding:5px;
+}   
+
+#header {
+	margin-top:3px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#menue {
+	width:411px;
+	margin: 0px auto;
+}
+
+#content {
+	margin-top:10px;
+	
+}
+
+#intro {
+	margin:10px 30px 0;
+	padding:0 30px;
+}
+
+#footer {
+	padding-top: 10px;
+	margin-top: 20px;
+	padding-bottom: 1px;
+	border-width: 1px 0px 0px 0px;
+	font-size:0.8em;
+}
+
+#menue ul{
+	padding-left:25px;
+}
+
+#menue li, #footer li{
+	display:inline;
+	color: grey;
+}
+
+.headline {
+	margin-left: 25px;
+	padding-left:15px;
+	padding-top:0.1px;
+	padding-bottom:0.1px;
+	width: 440px;
+}
+
+#skills, #references {
+	margin-top:15px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#skillsLists {
+	padding-left:20px;
+	margin-top:-15px;
+}
+
+#skillsLists ul{
+	display:inline;
+	padding:10px;
+	margin:10px;
+	width:180px;
+}
+
+#skillsLists li{
+	padding: 7px;
+}
+
+#skillsLists li.listheader {
+	padding-left: 5px;
+}
+
+#principle{
+	width:180px;
+	position:relative;
+	left:+520px;
+	top:-145px;
+}
+
+#principleHeadline {
+	padding-left:20px;
+}
+
+#trackrecord {
+	margin-top:10px;
+}
+
+#trackrecordList dd{
+	margin-left:200px;
+	margin-bottom: 5px;
+}

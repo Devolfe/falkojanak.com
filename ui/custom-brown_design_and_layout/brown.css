@@ -1,0 +1,221 @@
+body {
+	background-color:/*#553A26*/white;
+	font-family: verdana, sans-serif;
+	color: SaddleBrown;
+	font-size:12px;
+}
+
+li {
+	padding:3px;
+}
+
+ul {
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+dl {
+	margin-left:40px;
+}
+
+dd {
+	padding-bottom:5px;
+}
+
+a:link, a:visited {
+	color:SaddleBrown;
+}
+
+#root {
+	width:760px;
+	margin: auto;
+	background-color:Bisque;
+	padding:5px;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}   
+
+#header {
+	margin-top:3px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:BurlyWood;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod ;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}
+
+#menue {
+	width:260px;
+	margin: 0px auto;
+}
+
+#content {
+	/*background-color:red;*/
+	margin-bottom:5px;
+	background-color:papayawhip;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}
+
+#intro {
+	font-size:0.8em;
+	margin-left:40px;
+	margin-right:40px;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}
+
+#intro p {
+	padding-top:20px;
+}
+
+
+#footer {
+	padding-top:0.1px;
+	padding-bottom:0.1px;
+	background-color:BurlyWood;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}
+
+#menue a:link, #menue a:visited {
+	color:SaddleBrown;
+	border-bottom-style:solid;
+	border-width:thin;
+	border-color:SaddleBrown;
+	text-decoration: none;
+}
+
+#menue  a:hover, #menue a:active {
+	border-bottom-style:dotted;
+}
+
+#menue ul{
+	padding-right:20px;
+}
+
+#menue li, #footer li{
+	display:inline;
+}
+
+#menue li.selected {
+	color:papayawhip;
+}
+
+ .kursiv {
+	font-style:italic;
+}
+
+.headline {
+	margin-left: 25px;
+	padding-left:15px;
+	padding-top:0.1px;
+	padding-bottom:0.1px;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+	width: 440px;
+	clear:both;
+	background-color:SaddleBrown;
+	color:papayawhip;
+	font-weight:bold;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod;
+}
+
+#skills {
+	margin-top:15px;
+}
+
+#skillsLists {
+	padding-left:20px;
+}
+
+#skillsLists ul{
+	float:left;
+	background-color:Bisque;
+	padding:10px;
+	margin:10px;
+	width:180px;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod ;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+}
+
+#skillsLists li{
+	background-color:Bisque;
+	padding: 7px;
+}
+
+#skillsLists li.listheader {
+	background-color:BurlyWood;
+	border-style:solid;
+	border-width:thin;
+	border-color:PaleGoldenRod ;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+	padding-left: 5px;
+}
+
+#principle{
+	width:180px;
+	clear:both;
+	font-style:italic;
+	background-color:BurlyWood;
+	border-style:dashed;
+	border-width:medium;
+	border-color:SaddleBrown ;
+	-moz-border-radius:10px;
+	-khtml-border-radius:10px;
+	color:papayawhip;
+	position:relative;
+	left:+520px;
+	top:-145px;
+	z-index:1
+}
+
+#principleHeadline {
+	padding-left:20px;
+	font-weight:bold;
+}
+
+#references {
+	position:relative;
+	top:-105px;
+	z-index:1
+}
+
+#trackrecord {
+	margin-top:10px;
+}
+
+#trackrecordList dt{
+	font-style:italic;
+	float:left;
+}
+
+#trackrecordList dt.trackrecordTopic {
+	font-weight:bold;
+	clear:both;
+	
+}
+
+#trackrecordList dd{
+	margin-left:200px;
+	margin-bottom: 5px;
+}
