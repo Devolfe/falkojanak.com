@@ -1,6 +1,24 @@
-		<div id="footer" class="ui-widget-content ui-corner-top">
-			<ul style="margin-left: 30px; margin-right:30px; padding: 5px 0px 5px 30px;" class="ui-state-active ui-corner-all">
-				<li><a href="impressum.htm" style="text-decoration:underline; padding: 5px 10px">Impressum</a></li>
+		<div id="footer" >
+
+		<?php
+			$impressum=get_page_by_title('impressum');
+			$impressumid=$impressum->ID;
+			$impressumlink=get_page_link($impressumid);
+			
+			$impressumtitel=$impressum->post_title;
+	
+		
+		// echo "<PRE>";
+		// print_r($impressum);
+		// echo "</PRE>";
+	
+		
+		
+		?>
+
+
+		<ul >
+				<li><a href=<?php echo $impressumlink;?> ><?php echo $impressumtitel;  ?></a></li>
 				<li > | </li>
 				<li >"Nur tote Fische schwimmen mit dem Strom."</li>
 			</ul>
