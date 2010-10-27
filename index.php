@@ -49,9 +49,10 @@ get_header();
 						 $contactinhalt=$post->post_content;
 					}
 				?>
-<p>dies ist ein test. habe ein neues feature gerade gebaut.</p>
+
+<!--<a href="http://blog.seankoole.com" title="Home" class="current">Home</a>	-->
 				<ul>
-					<li><a id="menue_home" href="#home"><span ></span><?php echo $homname; ?></a></li>
+					<li><a id="menue_home" href="#home" class="current"><span ></span><?php echo $homname; ?></a></li>
 					<li><a id="menue_about_me" href="#about_me"><span ></span><?php echo $aboutmename; ?></a></li>
 					<li><a id="menue_contact"href="#contact"><span ></span><?php echo $contactname; ?></a></li>
 				</ul>
