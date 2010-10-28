@@ -22,5 +22,6 @@
 		
 </head>
 <body>
+	<p>test</p>
 	<div id="root" >
 		<img src="<?php bloginfo('template_url'); ?>/ui/img/falkojanak_logo.png" alt="Falko Janak ... a developer's profile" />
