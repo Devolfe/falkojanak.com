@@ -6,7 +6,7 @@
 			$impressumlink=get_page_link($impressumid);
 			
 			$impressumtitel=$impressum->post_title;
-	
+		
 		
 		// echo "<PRE>";
 		// print_r($impressum);
@@ -19,8 +19,8 @@
 
 		<ul >
 				<li><a href=<?php echo $impressumlink;?> ><?php echo $impressumtitel;  ?></a></li>
-				<li > | </li>
-				<li >"Nur tote Fische schwimmen mit dem Strom."</li>
+			<!--	<li > | </li>	-->
+			<!--	<li >"Nur tote Fische schwimmen mit dem Strom."</li>	-->
 			</ul>
 		</div>
 	</div>
