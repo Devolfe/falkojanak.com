@@ -1,0 +1,7 @@
+
+.ui-tabs .ui-tabs-hide {
+	/* nicht löschen, gehört zu jquery ui tabs */
+     display: none;
+}
+
+body  { background-color:silver; }
