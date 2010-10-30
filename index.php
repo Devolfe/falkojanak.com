@@ -15,7 +15,7 @@ get_header();
 		 wp_enqueue_style ('jqueryuicss', get_bloginfo('template_url').'ui/jquery-design/css/pepper-grinder/jquery-ui-1.7.2.custom.css',false,'1.0',all);
 
 ?>
-
+<p>lösch mich, nur ein test</p>
 		<div id="content">
 			<div id="navi">
 				<?php
