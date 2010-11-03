@@ -22,4 +22,4 @@
 </head>
 <body>
 	<div id="root" >
-		<img src="<?php bloginfo('template_url'); ?>/img/falkojanak_logo.png" alt="Falko Janak ... a developer's profile" />
+		<div class="storyImage"><img src="<?php bloginfo('template_url'); ?>/img/falkojanak_logo.png" alt="Falko Janak ... a developer's profile" /></div>

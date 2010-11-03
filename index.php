@@ -11,11 +11,8 @@
  */
 
 get_header(); 
-		 wp_enqueue_style('layout1', get_bloginfo('template_url').'ui/layout_1/layout_1.css',false,'1.0',all);
-		 wp_enqueue_style ('jqueryuicss', get_bloginfo('template_url').'ui/jquery-design/css/pepper-grinder/jquery-ui-1.7.2.custom.css',false,'1.0',all);
 
 ?>
-<p>lösch mich, nur ein test</p>
 		<div id="content">
 			<div id="navi">
 				<?php
@@ -51,12 +48,12 @@ get_header();
 				?>
 
 <!--<a href="http://blog.seankoole.com" title="Home" class="current">Home</a>	-->
-				<ul>
-					<li><a id="menue_home" href="#home" class="current"><span ></span><?php echo $homname; ?></a></li>
-					<li><a id="menue_about_me" href="#about_me"><span ></span><?php echo $aboutmename; ?></a></li>
-					<li><a id="menue_contact"href="#contact"><span ></span><?php echo $contactname; ?></a></li>
+				<ul class="tab">
+					<li><a id="menue_home" href="#home" ><?php echo $homname; ?></a></li>
+					<li><a id="menue_about_me" href="#about_me"><?php echo $aboutmename; ?></a></li>
+					<li><a id="menue_contact"href="#contact"><?php echo $contactname; ?></a></li>
 				</ul>
-				<div id="home">
+				<div id="home" class="tabgesicht">
 				<?php
 					echo $homeinhalt;
 				?>

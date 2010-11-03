@@ -3,5 +3,25 @@
 	/* nicht löschen, gehört zu jquery ui tabs */
      display: none;
 }
-
-body  { background-color:silver; }
+body {background-color:#EFEFEF;}
+#root
+	{
+	background-color:white;
+	width: 800px;
+	position:absolute;
+	left: 432px;
+	padding: 15px;
+	margin: 0px;
+	border-top-width: 0px;
+}
+.storyImage {
+	text-align:center;
+}
+ul.tab {
+	list-style-type:none;
+	display:inline;
+}
+ul.tab li {
+	display:inline;
+}
+	
