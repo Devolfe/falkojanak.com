@@ -3,25 +3,51 @@
 	/* nicht löschen, gehört zu jquery ui tabs */
      display: none;
 }
-body {background-color:#EFEFEF;}
+body {
+	background-color:#EFEFEF;
+	font-family: verdana;
+}
 #root
 	{
 	background-color:white;
-	width: 800px;
-	position:absolute;
-	left: 432px;
+	width: 700px;	
 	padding: 15px;
-	margin: 0px;
+	margin: auto;
 	border-top-width: 0px;
 }
 .storyImage {
 	text-align:center;
 }
-ul.tab {
+
+a:link {
+	color:white;
+	text-decoration: none;
+
+}
+
+a:hover {
+	background-color: #993000;
+}
+.tab {
 	list-style-type:none;
-	display:inline;
+	text-align: center;
 }
 ul.tab li {
 	display:inline;
+	
+}
+.tabgesicht {
+	background-color: #00008B;
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.292969) 0px 1px 0pt;
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+	padding: 5px 30px;
+	margin: 20px;
+
+}
+.artikel {
+	text-align: center;
 }
 	

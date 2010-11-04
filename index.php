@@ -49,25 +49,27 @@ get_header();
 
 <!--<a href="http://blog.seankoole.com" title="Home" class="current">Home</a>	-->
 				<ul class="tab">
-					<li><a id="menue_home" href="#home" ><?php echo $homname; ?></a></li>
-					<li><a id="menue_about_me" href="#about_me"><?php echo $aboutmename; ?></a></li>
-					<li><a id="menue_contact"href="#contact"><?php echo $contactname; ?></a></li>
+					<li><a id="menue_home" href="#home" class="tabgesicht"><?php echo $homname; ?></a></li>
+					<li><a id="menue_about_me" href="#about_me" class="tabgesicht"><?php echo $aboutmename; ?></a></li>
+					<li><a id="menue_contact"href="#contact" class="tabgesicht"><?php echo $contactname; ?></a></li>
 				</ul>
-				<div id="home" class="tabgesicht">
+				<br /><br />
+				<div id="home" class="artikel" >
 				<?php
 					echo $homeinhalt;
 				?>
 				</div>
-				<div id="about_me">
+				<div id="about_me" class="artikel">
 				<?php
 					echo $aboutmeinhalt;
 				?>
 				</div>
-				<div id="contact">
+				<div id="contact" class="artikel">
 				<?php
 					echo $contactinhalt;
 				?>
 				</div>
+				<br /><br />
 			</div>
 		</div>
 

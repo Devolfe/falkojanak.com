@@ -1,4 +1,4 @@
-		<div id="footer" >
+		<div id="footer"  >
 
 		<?php
 			$impressum=get_page_by_title('impressum');
@@ -17,8 +17,8 @@
 		?>
 
 
-		<ul >
-				<li><a href=<?php echo $impressumlink;?> ><?php echo $impressumtitel;  ?></a></li>
+		<ul class="tab"> 
+				<li><a href=<?php echo $impressumlink;?> class="tabgesicht" ><?php echo $impressumtitel;  ?></a></li>
 			<!--	<li > | </li>	-->
 			<!--	<li >"Nur tote Fische schwimmen mit dem Strom."</li>	-->
 			</ul>
