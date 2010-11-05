@@ -18,7 +18,7 @@
 
 
 		<ul class="tab"> 
-				<li><a href=<?php echo $impressumlink;?> class="tabgesicht" ><?php echo $impressumtitel;  ?></a></li>
+				<li><a href=<?php echo $impressumlink;?>><?php echo $impressumtitel;  ?></a></li>
 			<!--	<li > | </li>	-->
 			<!--	<li >"Nur tote Fische schwimmen mit dem Strom."</li>	-->
 			</ul>

@@ -5,16 +5,17 @@
 		<title>Falko Janak ... a developers profile</title>
 		<link href="<?php bloginfo('template_url'); ?>/css/my.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.4.2.min.js"></script> 
-		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-ui-tabs-and-effects/jquery-ui-1.8.5.custom.min.js"></script> 
+		<!--<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-ui-tabs-and-effects/jquery-ui-1.8.5.custom.min.js"></script>  -->
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-tools/jquery.tools.min.js"></script> 
+
 <script type="text/javascript">
 	$(document).ready(function(){	
-		if(navigator.appName == "Microsoft Internet Explorer"){
-			$('#navi').tabs();
-		}else{
-			$('#navi').tabs({fx: { height: 'blind', opacity: 'toggle', duration: 'normal' }});
-		}
-		$('#principles').hide();
-		$('#references').hide();
+		//if(navigator.appName == "Microsoft Internet Explorer"){
+		//	$('#navi').tabs();
+		//}else{
+		//	$('#navi').tabs({fx: { height: 'blind', opacity: 'toggle', duration: 'normal' }});
+		//}
+		$("ul.tab").tabs("div.artikel > div");
 	});
 </script>
 	

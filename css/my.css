@@ -19,15 +19,37 @@ body {
 	text-align:center;
 }
 
-a:link {
-	color:white;
+.tab li a{
+	color:black;
 	text-decoration: none;
-
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	padding: 5px 30px;
+	margin: 15px;
 }
 
-a:hover {
+.tab a:hover {
+	color: white;
 	background-color: #993000;
 }
+.tab .current {
+	color: white;
+	background-color: #993000;
+}
+/*.ui-state-default {
+	color: black;
+	text-decoration: none;
+}
+.ui-state-hover {
+	color: white;
+	background-color: #993000;
+}
+.ui-state-active {
+	color: white;
+	background-color: #993000;
+}*/
+	
 .tab {
 	list-style-type:none;
 	text-align: center;
@@ -37,17 +59,27 @@ ul.tab li {
 	
 }
 .tabgesicht {
-	background-color: #00008B;
-	color: white;
-	text-shadow: rgba(0, 0, 0, 0.292969) 0px 1px 0pt;
+	/*background-color: #00008B;*/
+	/*color: black;*/
+	/*text-shadow: rgba(0, 0, 0, 0.292969) 0px 1px 0pt;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	display: inline-block;
 	padding: 5px 30px;
-	margin: 20px;
+	margin: 15px;*/
 
 }
 .artikel {
 	text-align: center;
 }
+/*.ui-tabs-selected {
+	color: white!important;
+	background-color: #993000;
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	padding: 5px 30px;
+	margin: 15px;
+
+}*/
 	
