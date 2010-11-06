@@ -24,3 +24,4 @@
 <body>
 	<div id="root" >
 		<div class="storyImage"><img src="<?php bloginfo('template_url'); ?>/img/falkojanak_logo.png" alt="Falko Janak ... a developer's profile" /></div>
+		<br /><br /><br />
