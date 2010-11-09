@@ -13,8 +13,8 @@
 get_header(); 
 
 ?>
-		<div id="content">
-			<div id="navi">
+	<!--	<div id="content">
+			<div id="navi"> -->
 
 				<?php
 					$HOME=get_category_by_slug('home');
@@ -54,26 +54,34 @@ get_header();
 					<li><a id="menue_about_me" href="#" ><?php echo $aboutmename; ?></a></li>
 					<li><a id="menue_contact"href="#" ><?php echo $contactname; ?></a></li>
 				</ul>
-				<br /><br />
-				<div class="artikel">
-					<div id="home" class="" >
-						<?php
-							echo $homeinhalt;
-						?>
+	</div>	
+		<div id="content">
+			<div id="navi">
+
+	
+				<div id="root" >
+					<div class="artikel">
+						<div id="home" class="" >
+							<?php
+								echo $homeinhalt;
+							?>
+						</div>
+						<div id="about_me" class="">
+							<?php
+								echo $aboutmeinhalt;
+							?>
+						</div>
+						<div id="contact" class="">
+							<?php
+								echo $contactinhalt;
+							?>
+						</div>
 					</div>
-					<div id="about_me" class="">
-						<?php
-							echo $aboutmeinhalt;
-						?>
+					
+					<div>	
+						<br /><br />
 					</div>
-					<div id="contact" class="">
-						<?php
-							echo $contactinhalt;
-						?>
-					</div>
-				</div>
-				<br /><br />
-			</div>
-		</div>
+		
 
 <?php get_footer(); ?>
+				</div>

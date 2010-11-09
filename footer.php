@@ -12,18 +12,15 @@
 		// print_r($impressum);
 		// echo "</PRE>";
 	
-		
-		
 		?>
 
-
-		<ul class="tab"> 
+			<ul class="tab"> 
 				<li><a href=<?php echo $impressumlink;?>><?php echo $impressumtitel;  ?></a></li>
-			<!--	<li > | </li>	-->
-			<!--	<li >"Nur tote Fische schwimmen mit dem Strom."</li>	-->
+			<!--	<?php get_page (); ?> -->
 			</ul>
 		</div>
 	</div>
+	
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
