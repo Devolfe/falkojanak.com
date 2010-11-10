@@ -1,38 +1,81 @@
 
-.ui-tabs .ui-tabs-hide {
-	/* nicht löschen, gehört zu jquery ui tabs */
-     display: none;
-}
 body {
 	background-color:#EFEFEF;
 	font-family: verdana;
 }
-#head {
-	clear: booth;
-	margin-bottom: 20px;
-	width: 700px;
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#border {
+	width: 900px;
 	margin: auto;
 }
-.kopf {
+
+#head {
+	margin-bottom: 20px;
+	width: 580px;
 	display: block;
 }
-#root
-	{
+
+#root {
+	float: left;
 	background-color:white;
-	width: 700px;	
-	padding: 30px 0px 60px;
-	margin: auto;
-	/*border-top-width: 0px;*/
+	width: 580px;	
+	padding: 30px 0px 60px 30px;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 4px;
 	border: 1px solid white;
-	clear: both;
-	margin-bottom: 40px;
-	position: relative;
-
+	margin-bottom: 10px;
 }
-/*.storyImage {
-	text-align:center;
-}*/
+
+#footer {
+	background-color:#EFEFEF;
+	width: 580px;	
+	height: 50px;
+	margin-bottom: 40px;
+}	
+
+#footer a{
+	text-decoration: none;
+	font-size: 10px;
+	color: #C0C0C0;
+	list-style-type:none;
+	padding: 2px 0px;	
+}
+
+#return {
+	background-color:#EFEFEF;
+	width: 580px;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}	
+	
+
+#return  a{
+	text-decoration: none;
+	font-size: 12px;
+	background: #C0C0C0;
+	color: white;
+	list-style-type:none;
+	padding: 2px 20px;
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+}
+
+#twitter {
+	border: 1px solid white;
+	float: right;
+	width: 250px;
+	height: 300px;
+}
+
+#leer {
+	clear: both;
+}
+
 
 .tab li a{
 	color:black;
@@ -41,7 +84,7 @@ body {
 	font-size: 14px;
 	display: inline-block;
 	padding: 2px 25px;
-	margin: 3px;
+	margin: 20px 0px;
 	border-bottom-left-radius: 15px 15px;
 	border-bottom-right-radius: 15px 15px;
 	border-top-left-radius: 15px 15px;
@@ -59,7 +102,6 @@ body {
 	
 .tab {
 	list-style-type:none;
-	/*text-align: center;*/
 }
 ul.tab li {
 	display:inline;
@@ -71,29 +113,4 @@ ul.tab li {
 	width: 550px;
 	margin: auto;
 }
-/*.imp {
-	list-style-type:none;
-	float: left;
-}
-.imp .current {
-	color: white;
-	background-color: #A60000;
-}
-.imp a:hover {
-	color: white;
-	background-color: #A60000;
-}
-.imp li a{
-	color:black;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 15px;
-	display: inline-block;
-	padding: 2px 30px;
-	margin: 15px;
-	border-bottom-left-radius: 15px 15px;
-	border-bottom-right-radius: 15px 15px;
-	border-top-left-radius: 15px 15px;
-	border-top-right-radius: 15px 15px;
-}*/
 	

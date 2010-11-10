@@ -10,12 +10,15 @@
  *
  
 
-get_header(); 
+
 	wp_enqueue_style('layout1', get_bloginfo('template_url').'ui/layout_1/layout_1.css',false,'1.0',all);
 	wp_enqueue_style ('jqueryuicss', get_bloginfo('template_url').'ui/jquery-design/css/pepper-grinder/jquery-ui-1.7.2.custom.css',false,'1.0',all);
 */
+get_header(); 
 ?>
-
+<div id="return">
+			<a href="http://localhost/fj/"> <?php echo "RETURN"; ?></a>
+</div>
 <?php
 	$impressum=get_page_by_title('impressum');
 	$impressuminhalt=$impressum->post_content;
@@ -26,10 +29,10 @@ get_header();
 	
 ?>
 
-<div id="impressum">
+<div id="root">
 	<?php
 		echo $impressuminhalt;
 	?>
 </div>
 
-<?php get_footer(); ?>
+<?php // get_footer(); ?>

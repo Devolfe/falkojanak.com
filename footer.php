@@ -1,25 +1,23 @@
-		<div id="footer"  >
+			<div id="footer"  >
 
-		<?php
-			$impressum=get_page_by_title('impressum');
-			$impressumid=$impressum->ID;
-			$impressumlink=get_page_link($impressumid);
-			
-			$impressumtitel=$impressum->post_title;
-		
-		
-		// echo "<PRE>";
-		// print_r($impressum);
-		// echo "</PRE>";
-	
-		?>
+			<?php
+				$impressum=get_page_by_title('impressum');
+				$impressumid=$impressum->ID;
+				$impressumlink=get_page_link($impressumid);
+				
+				$impressumtitel=$impressum->post_title;
+				$impressuminhalt=$impressum->post_content;
 
-			<ul class="tab"> 
-				<li><a href=<?php echo $impressumlink;?>><?php echo $impressumtitel;  ?></a></li>
-			<!--	<?php get_page (); ?> -->
-			</ul>
-		</div>
-	</div>
+			// echo "<PRE>";
+			// print_r($impressum);
+			// echo "</PRE>";
+		
+			?>
+
+				<a href="<?php echo $impressumlink;?>"> <?php echo $impressumtitel; ?></a>
+
+			</div>
+	</div>	
 	
 	<script type="text/javascript">
 		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

@@ -13,8 +13,6 @@
 get_header(); 
 
 ?>
-	<!--	<div id="content">
-			<div id="navi"> -->
 
 				<?php
 					$HOME=get_category_by_slug('home');
@@ -48,15 +46,12 @@ get_header();
 					}
 				?>
 
-<!--<a href="http://blog.seankoole.com" title="Home" class="current">Home</a>	-->
 				<ul class="tab">
 					<li><a id="menue_home" href="#" ><?php echo $homname; ?></a></li>
 					<li><a id="menue_about_me" href="#" ><?php echo $aboutmename; ?></a></li>
 					<li><a id="menue_contact"href="#" ><?php echo $contactname; ?></a></li>
 				</ul>
-	</div>	
-		<div id="content">
-			<div id="navi">
+		</div>	
 
 	
 				<div id="root" >
@@ -77,11 +72,43 @@ get_header();
 							?>
 						</div>
 					</div>
-					
-					<div>	
-						<br /><br />
-					</div>
-		
-
-<?php get_footer(); ?>
+				</div>	
+				<div id="twitter">
+					<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+					<script>
+					new TWTR.Widget({
+					  version: 2,
+					  type: 'profile',
+					  rpp: 10,
+					  interval: 6000,
+					  width: 250,
+					  height: 300,
+					  theme: {
+						shell: {
+						  background: '#333333',
+						  color: '#ffffff'
+						},
+						tweets: {
+						  background: '#000000',
+						  color: '#ffffff',
+						  links: '#4aed05'
+						}
+					  },
+					  features: {
+						scrollbar: true,
+						loop: false,
+						live: false,
+						hashtags: true,
+						timestamp: true,
+						avatars: false,
+						behavior: 'all'
+					  }
+					}).render().setUser('Devolfe').start();
+					</script>
 				</div>
+				<div id="leer">
+				</div>
+			
+				
+<?php get_footer(); ?>
+				
