@@ -79,31 +79,31 @@ get_header();
 					new TWTR.Widget({
 					  version: 2,
 					  type: 'profile',
-					  rpp: 10,
-					  interval: 6000,
+					  rpp: 5,
+					  interval: 5000,
 					  width: 250,
 					  height: 300,
 					  theme: {
 						shell: {
-						  background: '#333333',
-						  color: '#ffffff'
+						  background: '#F8F8F8',
+						  color: '#000000'
 						},
 						tweets: {
-						  background: '#000000',
-						  color: '#ffffff',
-						  links: '#4aed05'
+						  background: '#F8F8F8',
+						  color: '#A60000',
+						  links: '#C0C0C0'
 						}
 					  },
 					  features: {
-						scrollbar: true,
-						loop: false,
-						live: false,
+						scrollbar: false,
+						loop: true,
+						live: true,
 						hashtags: true,
 						timestamp: true,
-						avatars: false,
-						behavior: 'all'
+						avatars: true,
+						behavior: 'default'
 					  }
-					}).render().setUser('Devolfe').start();
+					}).render().setUser('FalkoJanak').start();
 					</script>
 				</div>
 				<div id="leer">
