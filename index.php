@@ -80,9 +80,9 @@ get_header();
 					  version: 2,
 					  type: 'profile',
 					  rpp: 5,
-					  interval: 5000,
+					  interval: 8000,
 					  width: 250,
-					  height: 300,
+					  height: 185,
 					  theme: {
 						shell: {
 						  background: '#F8F8F8',
