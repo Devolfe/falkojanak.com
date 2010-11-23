@@ -32,8 +32,6 @@ ul {
 #footer {
 	background-color:#EFEFEF;
 	width: 80px;	
-	height: 50px;
-	margin-bottom: 40px;
 }	
 
 #footer a{
@@ -66,13 +64,20 @@ ul {
 }
 
 #twitter {
-	border: 1px solid white;
 	float: right;
-
+	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 4px;
 }
 
 #leer {
 	clear: both;
+}
+
+img.ohneRahmen {
+	border-width: 0px;
+}
+
+img.ohneRahmen:visited {
+	border-width: 0px;
 }
 
 

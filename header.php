@@ -23,7 +23,7 @@
 <body>
 	<div id="border">
 		<div id="head">
-			<div class="storyImage"><a href="http://localhost/fj/"><img src="<?php bloginfo('template_url'); ?>/img/falkojanak_logo_trans.png" alt="Falko Janak ... a developer's profile" /></a></div>
+			<div ><a href="<?php bloginfo('url'); ?>"><img class="ohneRahmen" src="<?php bloginfo('template_url'); ?>/img/falkojanak_logo_trans.png" alt="Falko Janak ... a developer's profile" /></a></div>
 	
 	
 	

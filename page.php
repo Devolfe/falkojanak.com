@@ -17,7 +17,7 @@
 get_header(); 
 ?>
 <div id="return">
-			<a href="http://localhost/fj/"> <?php echo "RETURN"; ?></a>
+			<a href="<?php bloginfo('url'); ?>"> <?php echo "RETURN"; ?></a>
 </div>
 <?php
 	$impressum=get_page_by_title('impressum');
