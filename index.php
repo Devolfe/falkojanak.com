@@ -80,7 +80,7 @@ get_header();
 					  version: 2,
 					  type: 'profile',
 					  rpp: 5,
-					  interval: 8000,
+					  interval: 12000,
 					  width: 250,
 					  height: 185,
 					  theme: {
